@@ -1,0 +1,10 @@
+#!/usr/bin/env perl
+
+use warnings;
+use strict;
+
+my $num = shift(@ARGV) || die "USAGE: $0 [num_ladybugs]\n";
+my $ladybug = " 🐞 ";
+
+print $ladybug x $num;
+print "\n";
